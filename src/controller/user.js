@@ -193,9 +193,9 @@ const forgotMail = async (req, res) => {
                 <p style="color:white">Hello User &#128075;</p>
                 <p style="color:white">Click the Link Below Button to Reset Your Password</p>
                 <button style="padding: 5px 10px; border-radius: 5px; background-color: orangered; color: white; font-weight: 900; margin: 15px;">
-                    <a style="text-decoration: none; color: inherit;" href="http://localhost:5173/reset-password/${token}">Click Here</a>
+                    <a style="text-decoration: none; color: inherit;" href="https://ubiquitous-malabi-2bdcaf.netlify.app/login/reset-password/${token}">Click Here</a>
                 </button>
-                <p style="color:white">Or Copy Paste The Link: http://localhost:5173/reset-password/${token}</p>
+                <p style="color:white">Or Copy Paste The Link: https://ubiquitous-malabi-2bdcaf.netlify.app/login/reset-password/${token}</p>
             </div>`
             }
     
